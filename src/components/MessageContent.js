@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const MessageContent = function MessageContent(props) {
   const { icon, title, message } = props;
   return (
-    <Segment basic>
+    <Segment basic textAlign="center">
       <Image centered src={icon} />
       <Header as="h4" textAlign="center">
         {title}
